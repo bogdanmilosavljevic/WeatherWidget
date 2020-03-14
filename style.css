@@ -1,0 +1,34 @@
+#pageHeader{
+    background-color: darkseagreen;
+    font-size: 30px;
+    text-align: center;
+}
+#widgetHeader{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+}
+#widgetBody{
+    background-color: aquamarine;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#day{
+    font-size: 45px;
+}
+#temp{
+    font-size: 45px;
+}
+#type{
+    font-size: 45px;
+}
+#windSpeed{
+    font-size: 45px;
+}
+#weatherDataList{
+    background-color: darkturquoise;
+    border-radius: 25px;
+    text-align: justify;
+    font-size: 20px;
+}

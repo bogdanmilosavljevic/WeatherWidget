@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather forecast</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-1"><!-- --></div>
+            <div class="col-md-10" id="pageHeader">
+                Weather forecast
+            </div>
+            <div class="col-md-1"><!-- --></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"><!-- --></div>
+            <div class="col-md-10">
+                <div class="row" id="widgetHeader">
+                    <div class="col-md-1"><!-- --></div>
+                    <div class="col-md-2" id="whDay">Day</div>
+                    <div class="col-md-2" id="whTemp">Temperature</div>
+                    <div class="col-md-2" id="whType">Weather type</div>
+                    <div class="col-md-2" id="whWindDirection">Wind direction</div>
+                    <div class="col-md-2" id="whWindSpeed">Wind speed</div>
+                    <div class="col-md-1"><!-- --></div>
+                </div>
+                <div class="row" id="widgetBody">
+                    <div class="col-md-1"><!-- --></div>
+                    <div class="col-md-2" id="day"><!-- --></div>
+                    <div class="col-md-2" id="temp"><!-- --></div>
+                    <div class="col-md-2" id="type"><!-- --></div>
+                    <div class="col-md-2" id="windDirection"><!-- --></div>
+                    <div class="col-md-2" id="windSpeed"><!-- --></div>
+                    <div class="col-md-1"><!-- --></div>    
+                </div>
+                <div class="row" id="weatherDataList">
+                    <div class="col-md-1"><!-- --></div>
+                    <div class="col-md-3">
+                        <ul id="dataList">
+                        </ul>
+                    </div>
+                    <div class="col-md-8"><!-- --></div>
+                </div>
+            </div>
+            <div class="col-md-1"><!-- --></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
